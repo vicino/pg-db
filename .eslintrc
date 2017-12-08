@@ -12,6 +12,12 @@
           "ignoreStrings": true,
           "ignoreTemplateLiterals": true
         }
+      ],
+      "no-underscore-dangle": [
+        "error",
+        {
+          "allowAfterThis": true
+        }
       ]
     }
   }
