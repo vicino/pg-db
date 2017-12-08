@@ -1,0 +1,30 @@
+{
+  "name": "@vicino/pg-db",
+  "version": "0.0.0",
+  "description": "Package for connecting to a Postgres database and performing some basic operations.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicino/pg-db.git"
+  },
+  "author": "Alois <alois@vicino.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vicino/pg-db/issues"
+  },
+  "homepage": "https://github.com/vicino/pg-db#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "pg": "^7.4.0"
+  }
+}
