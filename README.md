@@ -16,7 +16,6 @@ const db = pg({
   connectionString,
 });
 
-const result = await db.query('select now()');
-const query = db.query('select now()');
-const result2 = query.exec();
+db.query('select now()');
+
 ```
