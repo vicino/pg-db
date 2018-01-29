@@ -4,7 +4,8 @@
   "description": "Package for connecting to a Postgres database and performing some basic operations.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint lib",
+    "test": "mocha test/"
   },
   "repository": {
     "type": "git",
@@ -17,11 +18,14 @@
   },
   "homepage": "https://github.com/vicino/pg-db#readme",
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^4.12.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.5.1"
+    "eslint-plugin-react": "^7.5.1",
+    "mocha": "^5.0.0",
+    "sinon": "^4.2.2"
   },
   "dependencies": {
     "debug": "^3.1.0",
